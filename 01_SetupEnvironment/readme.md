@@ -1,5 +1,7 @@
 # Setup
 
+Erro while connect wifi for ubuntu: https://chatgpt.com/share/684cfa2c-adec-8012-9e63-291a0ba0722a
+
 ## 1. Software
 Ubuntu 20.04
 
@@ -26,7 +28,7 @@ https://mobaxterm.mobatek.net/download-home-edition.html
     - SFTP runs over SSH (Secure Shell), so all file transfers are encrypted.
     - You need an SFTP client (software) to connect to an SFTP server and transfer files.
 
-### 2.3. Connect VM
+### 2.3. Connect VM and VS Code
 (SSH)
 
 `sudo apt install openssh-server`
@@ -46,7 +48,13 @@ Test: Enter command in MobaXtrern -> Create folder -> View in Ubuntu host
 
 ![alt text](image.png)
 
-### 3. Install library, driver để chạy .c, makefile, vim edit file, open file,tree folder, enter command at MobaXterm
+(SFTP - VSCode)
+
+View at link: https://www.youtube.com/watch?v=_b74lwN-ObQ
+
+When sucessfully connected, Ctrl Shift P -> Download Active Folder -> edit in VSCode
+
+### 3. Install library, driver to run .c, makefile, vim edit file, open file,tree folder, enter command at MobaXterm
 ![alt text](image-6.png)
 
 Tree
